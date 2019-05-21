@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4D6309228AD0D80000E44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D6308228AD0D80000E44A /* AppDelegate.m */; };
+		2B4D630C228AD0D80000E44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D630B228AD0D80000E44A /* ViewController.m */; };
+		2B4D630F228AD0D80000E44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D630D228AD0D80000E44A /* Main.storyboard */; };
+		2B4D6311228AD0DA0000E44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D6310228AD0DA0000E44A /* Assets.xcassets */; };
+		2B4D6314228AD0DA0000E44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D6312228AD0DA0000E44A /* LaunchScreen.storyboard */; };
+		2B4D6317228AD0DA0000E44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D6316228AD0DA0000E44A /* main.m */; };
+		2B4D6321228AD0DA0000E44A /* RPCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D6320228AD0DA0000E44A /* RPCalendarViewTests.m */; };
+		2B4D632C228AD0DA0000E44A /* RPCalendarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D632B228AD0DA0000E44A /* RPCalendarViewUITests.m */; };
+		2B4D633E228AD1460000E44A /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D633C228AD1460000E44A /* UIView+Ext.m */; };
+		2B4D6341228AD1AA0000E44A /* RPCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D6340228AD1AA0000E44A /* RPCalendarView.m */; };
+		2B4D6344228AD9F10000E44A /* RPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D6343228AD9F10000E44A /* RPTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4D631D228AD0DA0000E44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4D62FC228AD0D80000E44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4D6303228AD0D80000E44A;
+			remoteInfo = RPCalendarView;
+		};
+		2B4D6328228AD0DA0000E44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4D62FC228AD0D80000E44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4D6303228AD0D80000E44A;
+			remoteInfo = RPCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B4D6304228AD0D80000E44A /* RPCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4D6307228AD0D80000E44A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B4D6308228AD0D80000E44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B4D630A228AD0D80000E44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B4D630B228AD0D80000E44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B4D630E228AD0D80000E44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4D6310228AD0DA0000E44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4D6313228AD0DA0000E44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B4D6315228AD0DA0000E44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4D6316228AD0DA0000E44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B4D631C228AD0DA0000E44A /* RPCalendarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPCalendarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4D6320228AD0DA0000E44A /* RPCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPCalendarViewTests.m; sourceTree = "<group>"; };
+		2B4D6322228AD0DA0000E44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4D6327228AD0DA0000E44A /* RPCalendarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPCalendarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4D632B228AD0DA0000E44A /* RPCalendarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPCalendarViewUITests.m; sourceTree = "<group>"; };
+		2B4D632D228AD0DA0000E44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4D633C228AD1460000E44A /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		2B4D633D228AD1460000E44A /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		2B4D633F228AD1AA0000E44A /* RPCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPCalendarView.h; sourceTree = "<group>"; };
+		2B4D6340228AD1AA0000E44A /* RPCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPCalendarView.m; sourceTree = "<group>"; };
+		2B4D6342228AD9F10000E44A /* RPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPTool.h; sourceTree = "<group>"; };
+		2B4D6343228AD9F10000E44A /* RPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4D6301228AD0D80000E44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4D6319228AD0DA0000E44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4D6324228AD0DA0000E44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4D62FB228AD0D80000E44A = {
+			isa = PBXGroup;
+			children = (
+				2B4D6306228AD0D80000E44A /* RPCalendarView */,
+				2B4D631F228AD0DA0000E44A /* RPCalendarViewTests */,
+				2B4D632A228AD0DA0000E44A /* RPCalendarViewUITests */,
+				2B4D6305228AD0D80000E44A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4D6305228AD0D80000E44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4D6304228AD0D80000E44A /* RPCalendarView.app */,
+				2B4D631C228AD0DA0000E44A /* RPCalendarViewTests.xctest */,
+				2B4D6327228AD0DA0000E44A /* RPCalendarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4D6306228AD0D80000E44A /* RPCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				2B4D6307228AD0D80000E44A /* AppDelegate.h */,
+				2B4D6308228AD0D80000E44A /* AppDelegate.m */,
+				2B4D633D228AD1460000E44A /* UIView+Ext.h */,
+				2B4D633C228AD1460000E44A /* UIView+Ext.m */,
+				2B4D630A228AD0D80000E44A /* ViewController.h */,
+				2B4D630B228AD0D80000E44A /* ViewController.m */,
+				2B4D633F228AD1AA0000E44A /* RPCalendarView.h */,
+				2B4D6340228AD1AA0000E44A /* RPCalendarView.m */,
+				2B4D6342228AD9F10000E44A /* RPTool.h */,
+				2B4D6343228AD9F10000E44A /* RPTool.m */,
+				2B4D630D228AD0D80000E44A /* Main.storyboard */,
+				2B4D6310228AD0DA0000E44A /* Assets.xcassets */,
+				2B4D6312228AD0DA0000E44A /* LaunchScreen.storyboard */,
+				2B4D6315228AD0DA0000E44A /* Info.plist */,
+				2B4D6316228AD0DA0000E44A /* main.m */,
+			);
+			path = RPCalendarView;
+			sourceTree = "<group>";
+		};
+		2B4D631F228AD0DA0000E44A /* RPCalendarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4D6320228AD0DA0000E44A /* RPCalendarViewTests.m */,
+				2B4D6322228AD0DA0000E44A /* Info.plist */,
+			);
+			path = RPCalendarViewTests;
+			sourceTree = "<group>";
+		};
+		2B4D632A228AD0DA0000E44A /* RPCalendarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4D632B228AD0DA0000E44A /* RPCalendarViewUITests.m */,
+				2B4D632D228AD0DA0000E44A /* Info.plist */,
+			);
+			path = RPCalendarViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4D6303228AD0D80000E44A /* RPCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4D6330228AD0DA0000E44A /* Build configuration list for PBXNativeTarget "RPCalendarView" */;
+			buildPhases = (
+				2B4D6300228AD0D80000E44A /* Sources */,
+				2B4D6301228AD0D80000E44A /* Frameworks */,
+				2B4D6302228AD0D80000E44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPCalendarView;
+			productName = RPCalendarView;
+			productReference = 2B4D6304228AD0D80000E44A /* RPCalendarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B4D631B228AD0DA0000E44A /* RPCalendarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4D6333228AD0DA0000E44A /* Build configuration list for PBXNativeTarget "RPCalendarViewTests" */;
+			buildPhases = (
+				2B4D6318228AD0DA0000E44A /* Sources */,
+				2B4D6319228AD0DA0000E44A /* Frameworks */,
+				2B4D631A228AD0DA0000E44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4D631E228AD0DA0000E44A /* PBXTargetDependency */,
+			);
+			name = RPCalendarViewTests;
+			productName = RPCalendarViewTests;
+			productReference = 2B4D631C228AD0DA0000E44A /* RPCalendarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B4D6326228AD0DA0000E44A /* RPCalendarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4D6336228AD0DA0000E44A /* Build configuration list for PBXNativeTarget "RPCalendarViewUITests" */;
+			buildPhases = (
+				2B4D6323228AD0DA0000E44A /* Sources */,
+				2B4D6324228AD0DA0000E44A /* Frameworks */,
+				2B4D6325228AD0DA0000E44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4D6329228AD0DA0000E44A /* PBXTargetDependency */,
+			);
+			name = RPCalendarViewUITests;
+			productName = RPCalendarViewUITests;
+			productReference = 2B4D6327228AD0DA0000E44A /* RPCalendarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4D62FC228AD0D80000E44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tao;
+				TargetAttributes = {
+					2B4D6303228AD0D80000E44A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2B4D631B228AD0DA0000E44A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2B4D6303228AD0D80000E44A;
+					};
+					2B4D6326228AD0DA0000E44A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2B4D6303228AD0D80000E44A;
+					};
+				};
+			};
+			buildConfigurationList = 2B4D62FF228AD0D80000E44A /* Build configuration list for PBXProject "RPCalendarView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4D62FB228AD0D80000E44A;
+			productRefGroup = 2B4D6305228AD0D80000E44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4D6303228AD0D80000E44A /* RPCalendarView */,
+				2B4D631B228AD0DA0000E44A /* RPCalendarViewTests */,
+				2B4D6326228AD0DA0000E44A /* RPCalendarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4D6302228AD0D80000E44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4D6314228AD0DA0000E44A /* LaunchScreen.storyboard in Resources */,
+				2B4D6311228AD0DA0000E44A /* Assets.xcassets in Resources */,
+				2B4D630F228AD0D80000E44A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4D631A228AD0DA0000E44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4D6325228AD0DA0000E44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4D6300228AD0D80000E44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4D630C228AD0D80000E44A /* ViewController.m in Sources */,
+				2B4D633E228AD1460000E44A /* UIView+Ext.m in Sources */,
+				2B4D6341228AD1AA0000E44A /* RPCalendarView.m in Sources */,
+				2B4D6317228AD0DA0000E44A /* main.m in Sources */,
+				2B4D6309228AD0D80000E44A /* AppDelegate.m in Sources */,
+				2B4D6344228AD9F10000E44A /* RPTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4D6318228AD0DA0000E44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4D6321228AD0DA0000E44A /* RPCalendarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4D6323228AD0DA0000E44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4D632C228AD0DA0000E44A /* RPCalendarViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4D631E228AD0DA0000E44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4D6303228AD0D80000E44A /* RPCalendarView */;
+			targetProxy = 2B4D631D228AD0DA0000E44A /* PBXContainerItemProxy */;
+		};
+		2B4D6329228AD0DA0000E44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4D6303228AD0D80000E44A /* RPCalendarView */;
+			targetProxy = 2B4D6328228AD0DA0000E44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B4D630D228AD0D80000E44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4D630E228AD0D80000E44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B4D6312228AD0DA0000E44A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4D6313228AD0DA0000E44A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B4D632E228AD0DA0000E44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B4D632F228AD0DA0000E44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4D6331228AD0DA0000E44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPCalendarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPCalendarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4D6332228AD0DA0000E44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPCalendarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPCalendarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B4D6334228AD0DA0000E44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPCalendarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPCalendarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPCalendarView.app/RPCalendarView";
+			};
+			name = Debug;
+		};
+		2B4D6335228AD0DA0000E44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPCalendarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPCalendarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPCalendarView.app/RPCalendarView";
+			};
+			name = Release;
+		};
+		2B4D6337228AD0DA0000E44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPCalendarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPCalendarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPCalendarView;
+			};
+			name = Debug;
+		};
+		2B4D6338228AD0DA0000E44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPCalendarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPCalendarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPCalendarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4D62FF228AD0D80000E44A /* Build configuration list for PBXProject "RPCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4D632E228AD0DA0000E44A /* Debug */,
+				2B4D632F228AD0DA0000E44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4D6330228AD0DA0000E44A /* Build configuration list for PBXNativeTarget "RPCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4D6331228AD0DA0000E44A /* Debug */,
+				2B4D6332228AD0DA0000E44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4D6333228AD0DA0000E44A /* Build configuration list for PBXNativeTarget "RPCalendarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4D6334228AD0DA0000E44A /* Debug */,
+				2B4D6335228AD0DA0000E44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4D6336228AD0DA0000E44A /* Build configuration list for PBXNativeTarget "RPCalendarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4D6337228AD0DA0000E44A /* Debug */,
+				2B4D6338228AD0DA0000E44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4D62FC228AD0D80000E44A /* Project object */;
+}
